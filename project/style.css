@@ -1,4 +1,112 @@
-.navbar {
-  background-color: red; }
+.topSection {
+  margin: 0px auto;
+  width: 100%; }
+  .topSection .topNav {
+    width: 100%;
+    margin: 0px auto;
+    background-color: #F2F2F2; }
+    .topSection .topNav .adress {
+      width: 80%;
+      margin: 0px auto; }
+      .topSection .topNav .adress p {
+        padding: 0.4em 0;
+        margin: 0px; }
+  .topSection .navigationBar {
+    margin: 0px auto;
+    width: 80%; }
+    .topSection .navigationBar .navbar {
+      padding: 40px 0;
+      background-color: white; }
+      .topSection .navigationBar .navbar .navbar-brand img {
+        height: 50px; }
+      .topSection .navigationBar .navbar .collapse .navbar-nav .nav-item .dropdown:hover > .dropdown-menu {
+        display: block; }
+      .topSection .navigationBar .navbar .collapse .navbar-nav .nav-item .dropdown > .dropdown-toggle:active {
+        pointer-events: none; }
+
+.sliderSection {
+  width: 100%;
+  margin: 0 auto; }
+  .sliderSection .sliderBox {
+    padding: 0px;
+    width: 80%;
+    margin: 0 auto; }
+    .sliderSection .sliderBox .slider {
+      padding: 0px;
+      display: inline-block; }
+      .sliderSection .sliderBox .slider .carousel .carousel-inner {
+        border-radius: 8px; }
+        .sliderSection .sliderBox .slider .carousel .carousel-inner .carousel-item {
+          height: 350px; }
+          .sliderSection .sliderBox .slider .carousel .carousel-inner .carousel-item img {
+            width: 100%; }
+    .sliderSection .sliderBox .newsList {
+      padding-right: 0px;
+      float: right; }
+      .sliderSection .sliderBox .newsList .list {
+        padding: 15px 0;
+        height: 350px;
+        background-color: #393939;
+        border-radius: 8px;
+        overflow: hidden; }
+        .sliderSection .sliderBox .newsList .list .news h5 {
+          padding: 0;
+          color: white; }
+        .sliderSection .sliderBox .newsList .list .news p {
+          padding: 0;
+          color: #6B6B6B;
+          margin: 0; }
+        .sliderSection .sliderBox .newsList .list .news:hover {
+          background-color: #4D4D4D; }
+
+.menuList {
+  width: 100%;
+  margin: 0 auto; }
+  .menuList .boxRow {
+    margin: 0 auto;
+    width: 80%;
+    padding: 80px 0 0 0; }
+    .menuList .boxRow .box {
+      display: inline-block;
+      float: left;
+      text-align: center; }
+      .menuList .boxRow .box img {
+        width: 100; }
+
+.learnPrograms {
+  width: 100%;
+  margin: 0 auto; }
+  .learnPrograms .learnBoxList {
+    padding: 80px 0 0 0;
+    width: 80%;
+    margin: 0 auto;
+    text-align: center; }
+    .learnPrograms .learnBoxList h2 {
+      margin-bottom: 50px; }
+    .learnPrograms .learnBoxList .list {
+      padding: 0; }
+      .learnPrograms .learnBoxList .list .col-md-4 {
+        padding: 10px;
+        display: inline-block;
+        float: left; }
+        .learnPrograms .learnBoxList .list .col-md-4 .col-md-12 {
+          border-radius: 8px;
+          width: 100%;
+          margin: 0 auto;
+          background-color: red;
+          height: 180px;
+          padding: 0; }
+        .learnPrograms .learnBoxList .list .col-md-4 .box1 {
+          background-color: #FFC90A; }
+        .learnPrograms .learnBoxList .list .col-md-4 .box2 {
+          background-color: #873996; }
+        .learnPrograms .learnBoxList .list .col-md-4 .box3 {
+          background-color: #0086CD; }
+        .learnPrograms .learnBoxList .list .col-md-4 .box4 {
+          background-color: #00A65A; }
+        .learnPrograms .learnBoxList .list .col-md-4 .box5 {
+          background-color: #EC3824; }
+        .learnPrograms .learnBoxList .list .col-md-4 .box6 {
+          background-color: #F0812B; }
 
 /*# sourceMappingURL=style.css.map */

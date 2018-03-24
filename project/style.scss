@@ -1,3 +1,158 @@
-.navbar{
-	background-color:red;
+$fullWidth:100%;
+$width:80%;
+
+.topSection{
+	margin:0px auto;
+	width:100%;
+	.topNav{
+		width:$fullWidth;
+		margin:0px auto;
+		background-color:#F2F2F2;
+		.adress{
+			width:$width;
+			margin:0px auto;
+			p{
+			padding:0.4em 0;
+			margin:0px;
+			}
+		}
+	}
+	.navigationBar{
+		margin:0px auto;
+		width:$width;
+		.navbar{
+			padding:40px 0;
+			background-color:white;
+			.navbar-brand{
+				img{
+					height:50px;
+				}
+			}
+			.collapse{
+				.navbar-nav{
+					.nav-item{
+						.dropdown:hover>.dropdown-menu {
+							display: block;
+						}
+						.dropdown>.dropdown-toggle:active {
+						    pointer-events: none;
+						}
+					}
+				}
+			}
+		}
+	}
+}
+.sliderSection{
+	width:$fullWidth;
+	margin:0 auto;
+	.sliderBox{
+		padding:0px;
+		width:$width;
+		margin:0 auto;
+		.slider{
+			padding:0px;
+			display:inline-block;
+			.carousel{
+				.carousel-inner{
+					border-radius: 8px;
+					.carousel-item{
+						height:350px;
+						img{
+							width:100%;
+						}
+					}
+				}
+			}
+		}
+		.newsList{
+			padding-right:0px;
+			float:right;
+			.list{
+				padding:15px 0;
+				height:350px;
+				background-color:#393939;
+				border-radius: 8px;
+				overflow:hidden;
+				.news{
+					h5{
+						padding:0;
+						color:white;
+					}
+					p{
+						padding:0;
+						color:#6B6B6B;
+						margin:0;
+					}
+				}
+				.news:hover{
+					background-color:#4D4D4D;
+				}
+			}
+		}
+	}
+}
+.menuList{
+	width:$fullWidth;
+	margin:0 auto;
+	.boxRow{
+		margin:0 auto;
+		width:$width;
+		padding:80px 0 0 0 ;
+		.box{
+			display:inline-block;
+			float:left;
+			text-align:center;
+			img{
+				width:100;
+			}
+		}
+	}
+}
+.learnPrograms{
+	width:$fullWidth;
+	margin:0 auto;
+	.learnBoxList{
+		padding:80px 0 0 0 ;
+		width:$width;
+		margin:0 auto;
+		text-align:center;
+		h2{
+			margin-bottom:50px;
+		}
+		.list{
+			padding:0;
+			.col-md-4{
+				padding:10px;
+				display:inline-block;
+				float:left;
+				.col-md-12{
+					border-radius:8px;
+					width:100%;
+					margin:0 auto;
+					background-color:red;
+					height:180px;
+					padding:0;
+				}
+				.box1{
+					background-color:#FFC90A;
+				}
+				.box2{
+					background-color:#873996;
+				}
+				.box3{
+					background-color:#0086CD;
+				}
+				.box4{
+					background-color:#00A65A;
+				}
+				.box5{
+					background-color:#EC3824;
+				}
+				.box6{
+					background-color:#F0812B;
+				}
+			}
+		}
+	}
 }
