@@ -1,7 +1,29 @@
 $fullWidth:100%;
-$width:80%;
+$width:70%;
 
 .topSection{
+progress[value] {
+	appearance: none;
+	border: none;
+	width: 100%; height: 15px;
+	  background-color: whiteSmoke;
+	color: royalblue;
+	position: relative;
+}
+.html5::-webkit-progress-value,
+.python::-webkit-progress-value  {
+	background-image:
+	-webkit-linear-gradient( 135deg,
+	transparent,
+	transparent 66%,
+	rgba(0,0,0,.1) 33%,
+	rgba(0,0,0,.1) 66%,
+	transparent 66%),
+    -webkit-linear-gradient( top,
+	rgba(255, 255, 255, .25),
+	rgba(0,0,0,.2)),
+     -webkit-linear-gradient( left, green, blue,red,#FEC20D);
+}
 	margin:0px auto;
 	width:100%;
 	.topNav{
@@ -12,8 +34,9 @@ $width:80%;
 			width:$width;
 			margin:0px auto;
 			p{
-			padding:0.4em 0;
+			padding:0.5em 0;
 			margin:0px;
+			font-size:12px;
 			}
 		}
 	}
@@ -40,6 +63,16 @@ $width:80%;
 					}
 				}
 			}
+			.form-inline{
+				.btnRecourse{
+					height:40px;
+					width:150px;
+					background-color:#0086CD;
+					border-radius:8px;
+					border:none;
+					margin-left:20px;
+				}
+			}
 		}
 	}
 }
@@ -57,9 +90,14 @@ $width:80%;
 				.carousel-inner{
 					border-radius: 8px;
 					.carousel-item{
-						height:350px;
+						height:370px;
 						img{
 							width:100%;
+							height:100%;
+							object-fit: cover;
+						}
+						.carousel-caption{
+
 						}
 					}
 				}
@@ -70,7 +108,7 @@ $width:80%;
 			float:right;
 			.list{
 				padding:15px 0;
-				height:350px;
+				height:370px;
 				background-color:#393939;
 				border-radius: 8px;
 				overflow:hidden;
@@ -98,8 +136,9 @@ $width:80%;
 	.boxRow{
 		margin:0 auto;
 		width:$width;
-		padding:80px 0 0 0 ;
+		padding:40px 0 0 0 ;
 		.box{
+			padding:90px 0;
 			display:inline-block;
 			float:left;
 			text-align:center;
@@ -107,13 +146,17 @@ $width:80%;
 				width:100;
 			}
 		}
+		.box:hover{
+			box-shadow: 0px 0px 23px 2px rgba(0,0,0,0.75);
+			transition:0.4s;
+		}
 	}
 }
 .learnPrograms{
 	width:$fullWidth;
 	margin:0 auto;
 	.learnBoxList{
-		padding:80px 0 0 0 ;
+		padding:30px 0 0 0 ;
 		width:$width;
 		margin:0 auto;
 		text-align:center;
@@ -126,13 +169,18 @@ $width:80%;
 				padding:10px;
 				display:inline-block;
 				float:left;
+				height:195px;
 				.col-md-12{
 					border-radius:8px;
-					width:100%;
+					width:95%;
 					margin:0 auto;
 					background-color:red;
-					height:180px;
+					height:175px;
 					padding:0;
+					h2{
+						padding:50px  30px 0px 30px;
+						text-align:left;
+					}
 				}
 				.box1{
 					background-color:#FFC90A;
@@ -151,6 +199,12 @@ $width:80%;
 				}
 				.box6{
 					background-color:#F0812B;
+				}
+				.col-md-12:hover{
+					width:100%;
+					height:185px;
+					transition:0.5s;
+					margin-top:-5px;
 				}
 			}
 		}
